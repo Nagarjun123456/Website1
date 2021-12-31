@@ -1,0 +1,73 @@
+/* default styling  */
+
+html{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+      font-weight: 400;
+}
+
+header {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 3rem;
+}
+
+nav {
+      position: relative; /*allows to move nav content */
+      top: 1rem;          /*moving nav from top*/
+      right: 3rem;        /*from left*/
+      width: 20rem;
+}
+
+ul {
+      display: flex;
+      justify-content: space-between;
+}
+
+li {
+     list-style: none;
+     font-size: 1.5rem;
+}
+
+.showcase_img {
+      width: 95vw;
+      margin:1rem;
+}
+
+article {
+      display: flex;
+      margin: 1.5rem;
+}
+
+.content {
+      text-align: center;
+      margin-right: 2rem;
+      padding: 1rem;
+      font-size: 1.5rem;
+}
+
+h2 {
+      font-weight: 600;
+}
+
+footer {
+      background-color: black;
+      color: white;
+      height: 4rem;
+      display: flex;
+      justify-content: center; /*horizontally*/
+      align-items: center;     /*vertically*/
+      font-size: 1.5rem;
+}
+
+a {
+      text-decoration: none;
+      color: black;
+}
+
+a:hover {
+      color: red;
+      font-size: 2rem;
+}
